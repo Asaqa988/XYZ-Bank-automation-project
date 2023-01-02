@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XYZBank by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Manager(failed)">
+    <groups>
+      <run>
+        <include name="Manager"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="MyTest">
+        <methods>
+          <include name="Add_customer"/>
+        </methods>
+      </class> <!-- MyTest -->
+    </classes>
+  </test> <!-- GRP-Manager(failed) -->
+</suite> <!-- Failed suite [XYZBank by groups] -->
